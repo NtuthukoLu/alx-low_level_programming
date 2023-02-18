@@ -11,8 +11,9 @@ int main(void)
 	char lowCA;
 
 	for (lowCA = 'a'; lowCA <= 'z'; lowCA++)
+	{
 		putchar(lowCA);
-	
+	}
 	putchar('\n');
 
 	return (0);
