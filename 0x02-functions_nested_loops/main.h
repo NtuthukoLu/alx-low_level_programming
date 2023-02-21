@@ -8,4 +8,4 @@
 void print_alphabet(void);
 
 
-#endif
+#endif /* MAIN_H */
