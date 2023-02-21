@@ -2,7 +2,7 @@
 /**
  * times_table - Funtion for 9 times table initial value 0
  */
-void times table(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
