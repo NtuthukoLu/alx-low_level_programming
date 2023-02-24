@@ -1,4 +1,5 @@
-#include "main"
+#include <stdio.h>
+
 /**
  * main - prints numbers from 1 to 100 with multiples of 3
  *
