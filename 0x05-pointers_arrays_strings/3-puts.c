@@ -1,0 +1,17 @@
+#include "main.h"
+/**
+ * _puts - Prints a string followed by a new line.
+ * @str Pointer of type char
+ */
+void _puts(char *str)
+{
+	int i = 0;
+	
+	while (str[i] != '\n')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+
+	_putchar('\n');
+}
