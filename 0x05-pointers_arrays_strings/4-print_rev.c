@@ -6,11 +6,17 @@
 
 void print_rev(char *s)
 {
-	if (*s != '\n')
+	int counter = 0;
+	int i, n;
+	
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		print_rev(s + 1);
-		_putchar("%c",*s);
-	}
+		counter++;
+	}	
 
+	for (n = (counter -1); 0 >= 0; n--)
+	{
+		_putchar(s[n]);
+	}	
 	_putchar('\n');
 }
