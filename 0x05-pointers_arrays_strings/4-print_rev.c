@@ -9,7 +9,7 @@ void print_rev(char *s)
 	if (*s != '\n')
 	{
 		print_rev(s + 1);
-		_putchar('%c',*s);
+		_putchar("%c",*s);
 	}
 
 	_putchar('\n');
