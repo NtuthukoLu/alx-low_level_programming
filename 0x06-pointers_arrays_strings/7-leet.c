@@ -21,5 +21,8 @@ char *leet(char *str)
 			index2++;
 
 		}
-		index1++
+		index1++;
+	}
+
+	return (str);
 }
