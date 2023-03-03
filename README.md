@@ -1,1 +1,1 @@
-Summary of what all tasks do
+C basics, loops, pointer, arrays
