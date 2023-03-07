@@ -8,8 +8,6 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	char *_strpbrk(char *s, char *accept)
-{
 	int index;
 
 	while (*s)
@@ -24,5 +22,4 @@ char *_strpbrk(char *s, char *accept)
 	}
 
 	return ('\0');
-}
 }
