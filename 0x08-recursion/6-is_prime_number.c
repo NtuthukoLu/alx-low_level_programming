@@ -25,7 +25,8 @@ int is_divisible(int num, int div)
 /**
  * is_prime_number - returns 1 if the integer is a prime number ortherwise 0
  * @n: the integer
- * @Return: 1 otherwise 0
+ *
+ * Return: 1 otherwise 0
  */
 int is_prime_number(int n)
 {
