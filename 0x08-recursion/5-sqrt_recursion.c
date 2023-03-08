@@ -2,8 +2,8 @@
 
 int _sqrt(int n, int i);
 /**
- * _sqrt_recurssion - returns the natural square root of a number
- * @n The calculated square root
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: The calculated square root
  * Return: the square root
  */
 int _sqrt_recursion(int n)
@@ -19,10 +19,10 @@ int _sqrt_recursion(int n)
 int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
-	
+
 	if (sqrt > n)
 		return (-1);
-	
+
 	if (sqrt == n)
 		return (i);
 
