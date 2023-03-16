@@ -2,12 +2,12 @@
 /**
  * main - prints number of arguments
  * @argc: number of arguments
- * @argv: pointer to argv
+ * @argv: an array pointer to arguments
  * Return: Always 0
  */
-int main (int argc ,__attribute__((unused)) char *agrv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	printf("%d\n",argc - 1);
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
