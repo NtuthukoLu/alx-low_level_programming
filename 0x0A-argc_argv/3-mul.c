@@ -7,13 +7,13 @@
  *
  * Return: print error and return 1
  */
-int main(int argc , char *argv[])
+int main(int argc, char *argv[])
 {
 
 
 	if (argc > 1)
 	{
-		printf("%d\n",atoi(argv[1]) * atoi(argv[2]));
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
 	else
 	{
