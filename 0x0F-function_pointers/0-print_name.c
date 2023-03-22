@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "function.h"
 /**
  * print_name - print name using pointer to function
  * @name: string to add
